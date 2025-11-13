@@ -9,7 +9,7 @@ include('config.php');
   <div class="wrapper header-inner">
 
     <!-- Brand -->
-    <a href="/busanara/index.php" class="site-brand">BUSANARA</a>
+    <a href="/Busanara---semester-3/index.php" class="site-brand">BUSANARA</a>
 
     <!-- Toggle untuk mobile -->
     <button id="navToggle" class="nav-toggle" aria-label="Menu">&#9776;</button>
@@ -17,26 +17,26 @@ include('config.php');
     <!-- Navigation -->
     <nav class="nav">
       <ul>
-        <li><a href="/busanara/index.php">Home</a></li>
+        <li><a href="/Busanara---semester-3/index.php">Home</a></li>
 
         <li class="has-dropdown">
           <a href="#">Baju Anak ▾</a>
           <ul class="dropdown">
-            <li><a href="/busanara/katalog/bajuanakp.php">Perempuan</a></li>
-            <li><a href="/busanara/katalog/bajuanakl.php">Laki-Laki</a></li>
+            <li><a href="/Busanara---semester-3/katalog/bajuanakp.php">Perempuan</a></li>
+            <li><a href="/Busanara---semester-3/katalog/bajuanakl.php">Laki-Laki</a></li>
           </ul>
         </li>
 
         <li class="has-dropdown">
           <a href="#">Baju Dewasa ▾</a>
           <ul class="dropdown">
-            <li><a href="/busanara/katalog/bajudewasap.php">Perempuan</a></li>
-            <li><a href="/busanara/katalog/bajudewasal.php">Laki-Laki</a></li>
+            <li><a href="/Busanara---semester-3/katalog/bajudewasap.php">Perempuan</a></li>
+            <li><a href="/Busanara---semester-3/katalog/bajudewasal.php">Laki-Laki</a></li>
           </ul>
         </li>
 
-        <li><a href="/busanara/tentang_kami.php">Tentang Kami</a></li>
-        <li><a href="/busanara/hubungi_kami.php">Hubungi Kami</a></li>
+        <li><a href="/Busanara---semester-3/tentang_kami.php">Tentang Kami</a></li>
+        <li><a href="/Busanara---semester-3/hubungi_kami.php">Hubungi Kami</a></li>
       </ul>
     </nav>
 
@@ -56,14 +56,14 @@ include('config.php');
         <div class="user-dropdown">
           <button class="user-btn"><?php echo $nama ?: 'User'; ?> ▾</button>
           <ul class="dropdown">
-            <li><a href="/busanara/user_fitur/profile.php">Profile Settings</a></li>
-            <li><a href="/busanara/user_fitur/update-password.php">Update Password</a></li>
-            <li><a href="/busanara/user_fitur/riwayatsewa.php">Riwayat Sewa</a></li>
-            <li><a href="/busanara/user_fitur/logout.php">Sign Out</a></li>
+            <li><a href="/Busanara---semester-3/user_fitur/profile.php">Profile Settings</a></li>
+            <li><a href="/Busanara---semester-3/user_fitur/update-password.php">Update Password</a></li>
+            <li><a href="/Busanara---semester-3/user_fitur/riwayatsewa.php">Riwayat Sewa</a></li>
+            <li><a href="/Busanara---semester-3/user_fitur/logout.php">Sign Out</a></li>
           </ul>
         </div>
       <?php else: ?>
-        <a href="/busanara/login.php" class="btn btn-secondary" data-toggle="modal">Login / Register</a>
+        <a href="/Busanara---semester-3/login.php" class="btn btn-secondary" data-toggle="modal">Login / Register</a>
       <?php endif; ?>
     </div>
 
